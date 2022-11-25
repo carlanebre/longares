@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+    <title>Longares - Tu papelería en Madrid</title>
+
+    <!--Favicons-->
+    <link rel="shortcut icon" href="assets/icons/favicon.ico">
+    <link rel="icon" type="image/png" href="assets/icon/favicon.png">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i|Raleway:300,400,500,700" rel="stylesheet">
+
+    <!--build:css css/main.min.css-->
+    <link rel="stylesheet" href="css/estilos.css">
+    <!--endbuild-->
+  </head>
+  <body>
+    <header class="header preload">
+      <div class="header__wrapper">
+        <div class="header__left">
+          <a href="#" class="nav__btn-toggle">
+            <span class="nav__btn-toggle__line nav__btn-toggle__line--top"></span>
+            <span class="nav__btn-toggle__line nav__btn-toggle__line--middle"></span>
+            <span class="nav__btn-toggle__line nav__btn-toggle__line--bottom"></span>
+          </a><!--nav__btn-toggle-->
+
+          <div class="header__logo">
+            <a href="index.html" class="header__logo__link">
+                <img src="assets/img/logo-longares.png"
+                srcset="assets/img/logo-longares@2x.png 2x,
+                assets/img/logo-longares@3x.png 3x"
+                alt=""
+                class="header__logo__img">
+            </a><!--end of header__logo__link-->
+          </div><!--end of header__logo-->
+        </div><!--end of header__left-->
+
+        <div class="header__right">
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__item"><a href="products.html" class="nav__link">Productos</a></li>
+
+              <li class="nav__item"><a href="servicios.html" class="nav__link">Servicios</a></li>
+
+              <li class="nav__item"><a href="about.html" class="nav__link">Quiénes somos</a></li>
+
+              <li class="nav__item"><a href="contacto.html" class="nav__link">Contactar</a></li>
+
+              <li class="nav__item"><a href="login.html" class="nav__link">Área de clientes</a></li>
+            </ul><!--end of nav__list-->
+          </nav><!--end of nav-->
+
+          <a href="presupuesto.html" class="header__cta btn">Pide presupuesto gratis</a>
+        </div><!--end of header__right-->
+      </div><!--end of header__wrapper-->
+    </header><!--end of header-->
+
+    <div class="main">
+      <form class="form__content">
+        <div class="form__wrapper" style="margin-top:80px">
+          <div class="form__header">
+            <div class="section__header__capitular">
+              <p class="section__header__capitular__letter">P</p>
+            </div>
+            <div class="section__header__main">
+              <h2 class="section__header__main__title">Pide presupuesto</h2>
+            </div>
+          </div><!--end of form__header-->
+    
+          <fieldset class="form__fieldset">
+            <p>Introduce tus datos para que podamos ponernos en contacto contigo.</p>
+            <input class="form__input" type="text" name="user" id="user" placeholder="Nombre"><!--class="is-required"-->
+          </fieldset><!--end of form__fieldset-->
+    
+          <fieldset class="form__fieldset">
+            <input class="form__input" type="tel" name="tel" id="tel" placeholder="Teléfono">
+          </fieldset><!--end of form__fieldset-->
+    
+          <fieldset class="form__fieldset">
+            <input class="btn btn--block form__btn" type="submit" value="ENVIAR">
+          </fieldset><!--end of form__fieldset-->
+        </div><!--end of form__wrapper-->
+      </form><!--end of form-->
+    </div><!--end of main-->
+    <footer class="footer">
+      <div class="footer__wrapper">
+        <div class="footer__content">
+          <p class="footer__copy">&copy; Longares 2019. Todos los derechos reservados.</p>
+
+          <ul class="footer__menu">
+            <li class="footer__item">
+              <a href="#" data-popup-show="privacyPolicy" class="footer__link">Política de privacidad</a>
+            </li>
+
+            <li class="footer__item">
+              <a href="#" data-popup-show="cookiesPolicy" class="footer__link">Política de cookies</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer><!--end of footer-->
+  </body>
+</html>
